@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false"
+    tools:context=".message.activity.rongchat.ConversationActivity">
+    <fragment
+        android:id="@+id/_go_chat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="io.rong.imkit.fragment.ConversationFragment"/>
+</LinearLayout>
